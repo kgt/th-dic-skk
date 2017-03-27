@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+
+require "optparse"
+require "skk/converter"
+
+options = {
+  annotation: true,
+  escape:     :lisp
+}
+
+parser = OptionParser.new
+
+parser.on("--[no-]annotation") do |v|
+  options[:annotation] = v
+end
+parser.on("--escape FORMAT", [:lisp, :aquaskk]) do |v|
+  options[:escape] = v
+end
+
+parser.parse!(ARGV)
+
+converter = SKK::Converter.new(options)
+file      = ARGV[0] ? File.open(ARGV[0], "rb:UTF-8") : $stdin
+
+print converter.convert(file)
