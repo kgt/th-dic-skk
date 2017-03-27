@@ -15,7 +15,7 @@ parser = OptionParser.new
 parser.on("--[no-]annotation") do |v|
   options[:annotation] = v
 end
-parser.on("--escape FORMAT", [:lisp, :aquaskk]) do |v|
+parser.on("--escape FORMAT") do |v|
   options[:escape] = v
 end
 

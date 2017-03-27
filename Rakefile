@@ -1,7 +1,5 @@
 CONVERT       = "bin/convert"
-ESCAPES       = [:lisp, :aquaskk]
-UNANNOTATED   = :unannotated
-FORMATS       = [*ESCAPES, UNANNOTATED]
+FORMATS       = [:lisp, :aquaskk, :unannotated]
 SRC_BASEPATH  = "th-dic-r6-google"
 DST_BASEPATH  = "dist"
 CONCATED_NAME = "SKK-JISYO.th"
@@ -73,9 +71,11 @@ FORMATS.each do |format|
   FILE_NAMES.each do |src, dst|
     file dst_path(dst, format) => [src_path(src), DST_BASEPATH] do |t|
       case format
-      when *ESCAPES
-        sh convert_command(t.source, t.name, escape: format)
-      when UNANNOTATED
+      when :lisp
+        sh convert_command(t.source, t.name, escape: :lisp)
+      when :aquaskk
+        sh convert_command(t.source, t.name, escape: ",")
+      when :unannotated
         sh convert_command(t.source, t.name, annotation: false)
       else
         sh convert_command(t.source, t.name)
