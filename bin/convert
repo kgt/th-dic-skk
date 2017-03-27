@@ -16,7 +16,7 @@ parser.on("--[no-]annotation") do |v|
   options[:annotation] = v
 end
 parser.on("--escape FORMAT") do |v|
-  options[:escape] = v
+  options[:escape] = ["lisp", "aquaskk"].include?(v) ? v.to_sym : v
 end
 
 parser.parse!(ARGV)
