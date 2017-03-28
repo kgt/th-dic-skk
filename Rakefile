@@ -71,10 +71,8 @@ FORMATS.each do |format|
   FILE_NAMES.each do |src, dst|
     file dst_path(dst, format) => [src_path(src), DST_BASEPATH] do |t|
       case format
-      when :lisp
-        sh convert_command(t.source, t.name, escape: :lisp)
-      when :aquaskk
-        sh convert_command(t.source, t.name, escape: ",")
+      when :lisp, :aquaskk
+        sh convert_command(t.source, t.name, escape: format)
       when :unannotated
         sh convert_command(t.source, t.name, annotation: false)
       else

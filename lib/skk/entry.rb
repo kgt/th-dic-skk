@@ -88,14 +88,14 @@ module SKK
     def skk_candidate(escape: :lisp)
       fixed_candidate = ichidan_verb? ? candidate[0..-2] : candidate
 
-      skk_escape(fixed_candidate, mode: escape)
+      skk_candidate_escape(fixed_candidate, mode: escape)
     end
 
     def skk_annotation(escape: :lisp)
-      skk_escape(annotation, mode: escape)
+      skk_annotation_escape(annotation, mode: escape)
     end
 
-    def skk_escape(string, mode: :lisp)
+    def skk_candidate_escape(string, mode: :lisp)
       if string.match?(/[\/;]/)
         case mode
         when :lisp
@@ -112,6 +112,10 @@ module SKK
       else
         string
       end
+    end
+
+    def skk_annotation_escape(string, mode: :lisp)
+      skk_candidate_escape(string, mode: mode == :aquaskk ? "," : mode)
     end
   end
 end
