@@ -15,7 +15,7 @@ module SKK
       dictionary.each_line do |line|
         entry = Entry.new(line.chomp)
 
-        next unless entry.valid_entry?
+        next unless entry.valid?
 
         result << entry.to_skk(annotation: annotation, escape: escape).join("\n") + "\n"
       end

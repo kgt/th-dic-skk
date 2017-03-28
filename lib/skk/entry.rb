@@ -6,32 +6,52 @@ module SKK
       @entry, @candidate, @part, @annotation = string.split("\t")
     end
 
-    def valid_entry?
-      !(entry =~ /[a-z]/ && entry =~ /[!a-z]/)
+    def valid?
+      !entry.match?(/[a-z]/) || !entry.match?(/[!a-z]/)
+    end
+
+    def verb?
+      part.start_with?("動詞")
+    end
+
+    def ichidan_verb?
+      part == "動詞一段"
+    end
+
+    def verb_gyo
+      if ichidan_verb?
+        entry[-1]
+      else
+        part =~ /^動詞(.)[行変]/ && Regexp.last_match[1]
+      end
+    end
+
+    def adjective?
+      part == "形容詞"
+    end
+
+    def annotation?
+      annotation && annotation.length > 0
     end
 
     def to_skk(annotation: true, escape: :lisp)
       skk_entries.collect do |skk_entry|
-        if annotation
-          "#{skk_entry} /#{skk_candidate_with_annotation(escape: escape)}/"
-        else
-          "#{skk_entry} /#{skk_candidate(escape: escape)}/"
-        end
+        "#{skk_entry} /#{skk_candidate_with_annotation(annotation: annotation, escape: escape)}/"
       end
     end
 
     private
 
     def skk_entries
-      case part
-      when /動詞(.)行/
-        ["#{entry}#{skk_okuri_alphabet(Regexp.last_match[1])}"]
-      when "動詞一段"
-        ["#{entry[0..-2]}#{skk_okuri_alphabet(entry[-1])}"]
-      when "形容詞"
-        ["#{entry}i", "#{entry}k"]
+      fixed_entry = ichidan_verb? ? entry[0..-2] : entry
+
+      case
+      when verb?
+        ["#{fixed_entry}#{skk_okuri_alphabet(verb_gyo)}"]
+      when adjective?
+        ["#{fixed_entry}i", "#{fixed_entry}k"]
       else
-        [entry]
+        [fixed_entry]
       end
     end
 
@@ -54,22 +74,25 @@ module SKK
       }[kana]
     end
 
+    def skk_candidate_with_annotation(annotation: true, escape: :lisp)
+      result = skk_candidate(escape: escape)
+
+      if annotation && annotation?
+        result << ";"
+        result << skk_annotation(escape: escape)
+      end
+
+      result
+    end
+
     def skk_candidate(escape: :lisp)
-      fixed_candidate = part == "動詞一段" ? candidate[0..-2] : candidate
+      fixed_candidate = ichidan_verb? ? candidate[0..-2] : candidate
 
       skk_escape(fixed_candidate, mode: escape)
     end
 
     def skk_annotation(escape: :lisp)
       skk_escape(annotation, mode: escape)
-    end
-
-    def skk_candidate_with_annotation(escape: :lisp)
-      if annotation && annotation.length > 0
-        "#{skk_candidate(escape: escape)};#{skk_annotation(escape: escape)}"
-      else
-        skk_candidate(escape: escape)
-      end        
     end
 
     def skk_escape(string, mode: :lisp)
@@ -90,5 +113,5 @@ module SKK
         string
       end
     end
-  end  
+  end
 end
