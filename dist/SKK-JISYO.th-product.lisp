@@ -11,14 +11,17 @@
 いちじんしゃ /一迅社/
 いばらかせん /茨歌仙/
 えいやしょう /永夜抄;東方Project第8弾 (2004年8月15日 C66)/
+えんせきはくぶつし /燕石博物誌　～ Dr.Latency's Freak Report.;ZUN's Music Collection vol.8 (2016年5月8日 例大祭13)/燕石博物誌;ZUN's Music Collection vol.8 (2016年5月8日 例大祭13)/
 おおぞらまじゅつ /大空魔術　～ Magical Astronomy;ZUN's Music Collection vol.5 (2006年8月13日 C70)/大空魔術;ZUN's Music Collection vol.5 (2006年8月13日 C70)/
 かいきだん /怪綺談;東方Project第5弾 (1998年12月30日 C55)/
 かえいづか /花映塚;東方Project第9弾 (2005年8月14日 C68)/
 かくねつぞうじんひそうてんそく /核熱造神ヒソウテンソク;東方非想天則 ORIGINAL SOUNDTRACK (2009年12月30日 C77)/
 かぜのごうがい /風の号外;書籍文花帖収録の漫画 (漫画：葉庭)/
 かんじゅでん /紺珠伝;東方Project第15弾 (2015年8月14日 C88)/
+がいらいいへん /外來韋編/
 きおうぎょく /稀翁玉;西方Project第2作目 (2001年12月30日 C61)/
 きしんじょう /輝針城;東方Project第14弾 (2013年8月12日 C84)/
+きゅうやくさかば /旧約酒場　～ Dateless Bar "Old Adam".;ZUN's Music Collection vol.9 (2016年8月13日 C90)/旧約酒場;ZUN's Music Collection vol.9 (2016年8月13日 C90)/
 ぐもんくじゅ /求聞口授;設定資料集 (2012年4月27日 一迅社)/
 ぐもんしき /求聞史紀;設定資料集 (2006年12月27日 一迅社)/
 ぐりまり /グリモワール オブ マリサ;ファンブック (2009年7月28日 一迅社)/グリモワールオブマリサ;ファンブック (2009年7月28日 一迅社)/The Grimoire of Marisa;ファンブック (2009年7月28日 一迅社)/
@@ -43,6 +46,7 @@
 すいむそう /萃夢想;東方Project第7.5弾 (2004年12月30日 C67)/
 すずなあん /鈴奈庵/
 ずん /ZUN/
+せいほうぷろじぇくと /西方Project/西方プロジェクト/
 せいれんせん /星蓮船;東方Project第12弾 (2009年8月15日 C76)/
 ぜんじんるいのてんがくろく /全人類ノ天楽録;東方緋想天 ORIGINAL SOUNDTRACK (2008年8月16日 C74)/
 たそがれさかば /黄昏酒場　～ Uwabami Breakers ～;呑んべぇ会 弾幕シューティングゲーム (2007年12月30日 C73)/黄昏酒場;呑んべぇ会 弾幕シューティングゲーム (2007年12月30日 C73)/
@@ -51,18 +55,20 @@
 だんまくあまのじゃく /弾幕アマノジャク　～ Impossible Spell Card.;東方Project第14.3弾 (2014年5月11日 例大祭11)/弾幕アマノジャク;東方Project第14.3弾 (2014年5月11日 例大祭11)/弾幕アマノジャク　ゴールドラッシュ;(2014年11月16日 デジゲー博2014)/
 ちれいでん /地霊殿;東方Project第11弾 (2008年8月16日 C74)/
 つきのいなばとちじょうのいなば /月のイナバと地上の因幡/
+てんくうしょう /天空璋;東方Project第16弾 (2017年5月7日 例大祭14 ※体験版)/
 とうほういばらかせん /東方茨歌仙　～ Wild and Horned Hermit.;(concat "連載漫画 (漫画：あずまあや) \057 単行本 (一迅社)")/東方茨歌仙;(concat "連載漫画 (漫画：あずまあや) \057 単行本 (一迅社)")/
 とうほうえいやしょう /東方永夜抄　～ Imperishable Night.;東方Project第8弾 (2004年8月15日 C66)/東方永夜抄;東方Project第8弾 (2004年8月15日 C66)/
 とうほうかいきだん /東方怪綺談　～ Mystic Square;東方Project第5弾 (1998年12月30日 C55)/東方怪綺談;東方Project第5弾 (1998年12月30日 C55)/
 とうほうかえいづか /東方花映塚　～ Phantasmagoria of Flower View.;東方Project第9弾 (2005年8月14日 C68)/東方花映塚;東方Project第9弾 (2005年8月14日 C68)/
 とうほうかんじゅでん /東方紺珠伝　～ Legacy of Lunatic Kingdom.;東方Project第15弾 (2015年8月14日 C88)/東方紺珠伝;東方Project第15弾 (2015年8月14日 C88)/
+とうほうがいらいいへん /東方外來韋編 Strange Creators of Outer World. 壱;(concat "東方Project専門雑誌 第1巻 (2015年9月30日 KADOKAWA\057アスキー・メディアワークス)")/東方外來韋編 Strange Creators of Outer World. 弐;(concat "東方Project専門雑誌 第2巻 (2016年6月30日 KADOKAWA\057アスキー・メディアワークス)")/東方外來韋編 Strange Creators of Outer World. 参;(concat "東方Project専門雑誌 第3巻 (2017年3月2日 KADOKAWA\057アスキー・メディアワークス)")/東方外來韋編 Strange Creators of Outer World./東方外來韋編/
 とうほうきしんじょう /東方輝針城　～ Double Dealing Character.;東方Project第14弾 (2013年8月12日 C84)/東方輝針城;東方Project第14弾 (2013年8月12日 C84)/
 とうほうぐもんくじゅ /東方求聞口授　～ Symposium of Post-mysticism.;設定資料集 (2012年4月27日 一迅社)/東方求聞口授;設定資料集 (2012年4月27日 一迅社)/
 とうほうぐもんしき /東方求聞史紀　～ Perfect Memento in Strict Sense.;設定資料集 (2006年12月27日 一迅社)/東方求聞史紀;設定資料集 (2006年12月27日 一迅社)/
 とうほうげんそうきょう /東方幻想郷　～ Lotus Land Story;東方Project第4弾 (1998年8月14日 C54)/東方幻想郷;東方Project第4弾 (1998年8月14日 C54)/
 とうほうこうまきょう /東方紅魔郷　～ the Embodiment of Scarlet Devil.;東方Project第6弾 (2002年8月11日 C62)/東方紅魔郷;東方Project第6弾 (2002年8月11日 C62)/
 とうほうこうりんどう /東方香霖堂　～ Curiosities of Lotus Asia.;(concat "連載小説 \057 単行本 (2010年9月30日 アスキー・メディアワークス)")/東方香霖堂;(concat "連載小説 \057 単行本 (2010年9月30日 アスキー・メディアワークス)")/
-とうほうさんげつせい /東方三月精　～ Eastern and Little Nature Deity;(concat "連載漫画 第一部 (漫画：松倉ねむ) \057 単行本 (角川書店)")/東方三月精　～ Strange and Bright Nature Deity;(concat "連載漫画 第二部 (漫画：比良坂真琴) \057 単行本 (角川書店)")/東方三月精　～ Oriental Sacred Place;(concat "連載漫画 第三部 (漫画：比良坂真琴) \057 単行本 (角川書店)")/東方三月精/
+とうほうさんげつせい /東方三月精　～ Eastern and Little Nature Deity;(concat "連載漫画 第一部 (漫画：松倉ねむ) \057 単行本 (角川書店)")/東方三月精　～ Strange and Bright Nature Deity;(concat "連載漫画 第二部 (漫画：比良坂真琴) \057 単行本 (角川書店)")/東方三月精　～ Oriental Sacred Place;(concat "連載漫画 第三部 (漫画：比良坂真琴) \057 単行本 (角川書店)")/東方三月精　～ Visionary Fairies in Shrine.;連載漫画 第四部 (漫画：比良坂真琴)/東方三月精/
 とうほうしこうばな /東方紫香花　～ Seasonal Dream Vision.;同人誌 (2005年10月1日 虎の穴)/東方紫香花;同人誌 (2005年10月1日 虎の穴)/
 とうほうしんきろう /東方心綺楼　～ Hopeless Masquerade.;東方Project第13.5弾 (2013年5月26日 例大祭10)/東方心綺楼;東方Project第13.5弾 (2013年5月26日 例大祭10)/
 とうほうしんぴろく /東方深秘録　～ Urban Legend in Limbo.;東方Project第14.5弾 (2015年5月10日 例大祭12)/東方深秘録;東方Project第14.5弾 (2015年5月10日 例大祭12)/
@@ -71,10 +77,13 @@
 とうほうすずなあん /東方鈴奈庵　～ Forbidden Scrollery.;(concat "連載漫画 (漫画：春河もえ) \057 単行本 (一迅社)")/東方鈴奈庵;(concat "連載漫画 (漫画：春河もえ) \057 単行本 (一迅社)")/
 とうほうせいれんせん /東方星蓮船　～ Undefined Fantastic Object.;東方Project第12弾 (2009年8月15日 C76)/東方星蓮船;東方Project第12弾 (2009年8月15日 C76)/
 とうほうちれいでん /東方地霊殿　～ Subterranean Animism.;東方Project第11弾 (2008年8月16日 C74)/東方地霊殿;東方Project第11弾 (2008年8月16日 C74)/
+とうほうてんくうしょう /東方天空璋　～ Hidden Star in Four Seasons.;東方Project第16弾 (2017年5月7日 例大祭14 ※体験版)/東方天空璋;東方Project第16弾 (2017年5月7日 例大祭14 ※体験版)/
 とうほうひそうてん /東方緋想天　～ Scarlet Weather Rhapsody.;東方Project第10.5弾 (2008年5月25日 例大祭5)/東方緋想天;東方Project第10.5弾 (2008年5月25日 例大祭5)/
 とうほうひそうてんそく /東方非想天則　～ 超弩級ギニョルの謎を追え;東方Project第12.3弾 (2009年8月15日 C76)/東方非想天則;東方Project第12.3弾 (2009年8月15日 C76)/
+とうほうひょういばな /東方憑依華　～ Antinomy of Common Flowers.;東方Project第15.5弾 (2017年5月7日 例大祭14 ※体験版)/東方憑依華;東方Project第15.5弾 (2017年5月7日 例大祭14 ※体験版)/
 とうほうふうじんろく /東方風神録　～ Mountain of Faith.;東方Project第10弾 (2007年8月17日 C72)/東方風神録;東方Project第10弾 (2007年8月17日 C72)/
 とうほうふうまろく /東方封魔録　～ the Story of Eastern Wonderland;東方Project第2弾 (1997年8月15日 C52)/東方封魔録;東方Project第2弾 (1997年8月15日 C52)/
+とうほうぶんかしんぽう /東方文果真報 Alternative Facts in Eastern Utopia.;(concat "設定資料集 (2017年3月30日 KADOKAWA\057アスキー・メディアワークス)")/東方文果真報;(concat "設定資料集 (2017年3月30日 KADOKAWA\057アスキー・メディアワークス)")/
 とうほうぶんかちょう /東方文花帖　～ Shoot the Bullet.;東方Project第9.5弾 (2005年12月30日 C69)/東方文花帖;(concat "東方Project第9.5弾 \057 ファンブック")/東方文花帖　～ Bohemian Archive in Japanese Red.;ファンブック (2005年8月11日 一迅社)/
 とうほうぷろじぇくと /東方Project/東方プロジェクト/
 とうほうぼうげっしょう /東方儚月抄　～ Silent Sinner in Blue.;(concat "連載漫画 (漫画：秋★枝) \057 単行本 (一迅社)")/東方儚月抄　～ Cage in Lunatic Runagate.;(concat "連載小説 (挿絵：TOKIAME) \057 単行本 (2009年12月25日 一迅社)")/東方儚月抄　～ 月のイナバと地上の因幡;(concat "連載4コマ漫画 (漫画：あらたとしひら) \057 単行本 (一迅社)")/東方儚月抄/
@@ -84,6 +93,7 @@
 とうほうれいいでん /東方靈異伝　～ Highly Responsive to Prayers;東方Project第1弾 (1996年11月3日 第20回鳩山祭)/東方靈異伝;東方Project第1弾 (1996年11月3日 第20回鳩山祭)/
 ときあめ /TOKIAME;儚月抄(小説版)の挿絵担当/
 とりふねいせき /鳥船遺跡　～ Trojan Green Asteroid;ZUN's Music Collection vol.6 (2012年4月30日 COMIC1☆6)/鳥船遺跡;ZUN's Music Collection vol.6 (2012年4月30日 COMIC1☆6)/
+とるてるまじっく /トルテルマジック;ぴえとろ 弾幕シューティングゲーム (2001年5月4日)/
 のんべぇかい /呑んべぇ会;同人サークル/
 はくれいげんそうしょふ /博麗幻想書譜/
 はにわ /葉庭;風の号外の漫画担当/
@@ -91,10 +101,12 @@
 ばんしりゅう /幡紫竜;西方Project第3作目 (2008年8月16日 C74)/
 ひそうてん /緋想天;東方Project第10.5弾 (2008年5月25日 例大祭5)/
 ひそうてんそく /非想天則;東方Project第12.3弾 (2009年8月15日 C76)/
+ひょういばな /憑依華;東方Project第15.5弾 (2017年5月7日 例大祭14 ※体験版)/
 ひらさか /比良坂/
 ひらさかまこと /比良坂真琴;三月精第二部・第三部の漫画担当/
 ふうじんろく /風神録;東方Project第10弾 (2007年8月17日 C72)/
 ふうまろく /封魔録;東方Project第2弾 (1997年8月15日 C52)/
+ぶんかしんぽう /文果真報;(concat "設定資料集 (2017年3月30日 KADOKAWA\057アスキー・メディアワークス)")/
 ぶんかちょう /文花帖;(concat "東方Project第9.5弾 \057 ファンブック")/
 ほうらいにんぎょう /蓬莱人形　～ Dolls in Psuedo Paradise;ZUN's Music Collection vol.1 (2002年12月30日 C63)/蓬莱人形;ZUN's Music Collection vol.1 (2002年12月30日 C63)/
 ぼうげっしょう /儚月抄/
