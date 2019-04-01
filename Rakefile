@@ -1,3 +1,5 @@
+require "rake/clean"
+
 CONVERT       = "bin/convert"
 FORMATS       = [:lisp, :aquaskk, :unannotated]
 DIC_VERSION   = "r7"
@@ -12,6 +14,9 @@ FILE_NAMES    = [
   ["thdic-#{DIC_VERSION}-4-用語.txt",         "SKK-JISYO.th-term"],
   ["thdic-#{DIC_VERSION}-5-スペルカード.txt", "SKK-JISYO.th-spellcard"]
 ]
+
+CLEAN.include(SRC_BASEPATH)
+CLOBBER.include(DST_BASEPATH)
 
 def convert_command(src, dst, annotation: true, escape: nil)
   command = CONVERT.dup
