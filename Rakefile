@@ -1,14 +1,15 @@
 CONVERT       = "bin/convert"
 FORMATS       = [:lisp, :aquaskk, :unannotated]
-SRC_BASEPATH  = "th-dic-r7-google"
+DIC_VERSION   = "r7"
+SRC_BASEPATH  = "th-dic-#{DIC_VERSION}-google"
 DST_BASEPATH  = "dist"
 CONCATED_NAME = "SKK-JISYO.th"
 FILE_NAMES    = [
-  ["thdic-r7-1-作品名.txt",       "SKK-JISYO.th-product"],
-  ["thdic-r7-2-キャラクター.txt", "SKK-JISYO.th-character"],
-  ["thdic-r7-3-曲名.txt",         "SKK-JISYO.th-music"],
-  ["thdic-r7-4-用語.txt",         "SKK-JISYO.th-term"],
-  ["thdic-r7-5-スペルカード.txt", "SKK-JISYO.th-spellcard"],
+  ["thdic-#{DIC_VERSION}-1-作品名.txt",       "SKK-JISYO.th-product"],
+  ["thdic-#{DIC_VERSION}-2-キャラクター.txt", "SKK-JISYO.th-character"],
+  ["thdic-#{DIC_VERSION}-3-曲名.txt",         "SKK-JISYO.th-music"],
+  ["thdic-#{DIC_VERSION}-4-用語.txt",         "SKK-JISYO.th-term"],
+  ["thdic-#{DIC_VERSION}-5-スペルカード.txt", "SKK-JISYO.th-spellcard"]
 ]
 
 def convert_command(src, dst, annotation: true, escape: nil)
