@@ -1,6 +1,7 @@
 CONVERT       = "bin/convert"
 FORMATS       = [:lisp, :aquaskk, :unannotated]
 DIC_VERSION   = "r7"
+SRC_ARCHIVE   = "th-dic-#{DIC_VERSION}-google.zip"
 SRC_BASEPATH  = "th-dic-#{DIC_VERSION}-google"
 DST_BASEPATH  = "dist"
 CONCATED_NAME = "SKK-JISYO.th"
@@ -60,6 +61,14 @@ namespace :convert do
   FORMATS.each do |format|
     task format => [concated_path(format), *dst_files(format)]
   end
+end
+
+file SRC_BASEPATH => SRC_ARCHIVE do |t|
+  sh "unzip -O WINDOWS-31J #{t.source}"
+end
+
+FILE_NAMES.each do |src, dst|
+  file src_path(src) => SRC_BASEPATH
 end
 
 FORMATS.each do |format|
