@@ -1,11 +1,7 @@
-require_relative "lib/skk/convert_task"
-require_relative "lib/skk/package_task"
+require_relative "lib/skk/rake_task"
 
 task :default => :convert
 
-SKK::ConvertTask.new("r7", "lisp")
-SKK::ConvertTask.new("r7", "aquaskk")
-SKK::ConvertTask.new("r7", "unannotated")
-SKK::PackageTask.new("r7", "lisp")
-SKK::PackageTask.new("r7", "aquaskk")
-SKK::PackageTask.new("r7", "unannotated")
+SKK::RakeTask.new("r7", "lisp")
+SKK::RakeTask.new("r7", "aquaskk")
+SKK::RakeTask.new("r7", "unannotated")

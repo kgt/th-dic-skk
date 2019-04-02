@@ -2,7 +2,7 @@ require "rake"
 require "rake/tasklib"
 
 module SKK
-  class ConvertTask < Rake::TaskLib
+  class RakeTask < Rake::TaskLib
     attr_accessor :version
     attr_accessor :format
     attr_accessor :dst_dir
@@ -16,12 +16,13 @@ module SKK
 
       yield(self) if block_given?
 
-      define
+      define_convert_task
+      define_package_task
     end
 
     private
 
-    def define
+    def define_convert_task
       desc "Convert dictionaries"
       task :convert => "convert:#{format}"
 
@@ -37,6 +38,17 @@ module SKK
       dst_file_paths.zip(src_file_paths).each do |dst_file_path, src_file_path|
         file dst_file_path => [dst_dir, src_file_path] do
           convert src_file_path, dst_file_path
+        end
+      end
+    end
+
+    def define_package_task
+      desc "Package dictionaries"
+      task :package => archive_path
+
+      file archive_path => [concated_file_path, *dst_file_paths] do
+        chdir(dst_dir) do
+          sh "git archive -o #{archive_file} --prefix #{package_name}/ #{version} #{concated_file_name} #{dst_file_names.join(" ")}"
         end
       end
     end
@@ -79,8 +91,24 @@ module SKK
       end
     end
 
+    def concated_file_name
+      "#{base_name}.#{format}"
+    end
+
     def concated_file_path
-      File.join(dst_dir, "#{base_name}.#{format}")
+      File.join(dst_dir, concated_file_name)
+    end
+
+    def package_name
+      "#{base_name}.#{format}-#{version}"
+    end
+
+    def archive_file
+      "#{package_name}.zip"
+    end
+
+    def archive_path
+      File.join(dst_dir, archive_file)
     end
 
     def convert(src_file_path, dst_file_path)
