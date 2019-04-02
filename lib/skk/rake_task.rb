@@ -46,7 +46,7 @@ module SKK
       desc "Package dictionaries"
       task :package => archive_path
 
-      file archive_path => [concated_file_path, *dst_file_paths] do
+      file archive_path do
         chdir(dst_dir) do
           sh "git archive -o #{archive_file} --prefix #{package_name}/ #{version} #{concated_file_name} #{dst_file_names.join(" ")}"
         end
