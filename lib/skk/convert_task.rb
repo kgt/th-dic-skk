@@ -1,0 +1,105 @@
+require "rake"
+require "rake/tasklib"
+
+module SKK
+  class ConvertTask < Rake::TaskLib
+    attr_accessor :version
+    attr_accessor :format
+    attr_accessor :dst_dir
+    attr_accessor :base_name
+
+    def initialize(version, format)
+      @version   = version
+      @format    = format
+      @dst_dir   = "dist"
+      @base_name = "SKK-JISYO.th"
+
+      yield(self) if block_given?
+
+      define
+    end
+
+    private
+
+    def define
+      desc "Convert dictionaries"
+      task :convert => "convert:#{format}"
+
+      desc "Convert dictionaries for #{format}"
+      task "convert:#{format}" => [concated_file_path, *dst_file_paths]
+
+      directory dst_dir
+
+      file concated_file_path => [dst_dir, *dst_file_paths] do
+        concat dst_file_paths, concated_file_path
+      end
+
+      dst_file_paths.zip(src_file_paths).each do |dst_file_path, src_file_path|
+        file dst_file_path => [dst_dir, src_file_path] do
+          convert src_file_path, dst_file_path
+        end
+      end
+    end
+
+    def src_dir
+      "th-dic-#{version}-google"
+    end
+
+    def src_file_names
+      [
+        "thdic-#{version}-1-作品名.txt",
+        "thdic-#{version}-2-キャラクター.txt",
+        "thdic-#{version}-3-曲名.txt",
+        "thdic-#{version}-4-用語.txt",
+        "thdic-#{version}-5-スペルカード.txt"
+      ]
+    end
+
+    def src_file_paths
+      src_file_names.map do |file_name|
+        File.join(src_dir, file_name)
+      end
+    end
+
+    def dst_file_names
+      [
+        "product",
+        "character",
+        "music",
+        "term",
+        "spellcard"
+      ].map do |suffix|
+        "#{base_name}-#{suffix}.#{format}"
+      end
+    end
+
+    def dst_file_paths
+      dst_file_names.map do |file_name|
+        File.join(dst_dir, file_name)
+      end
+    end
+
+    def concated_file_path
+      File.join(dst_dir, "#{base_name}.#{format}")
+    end
+
+    def convert(src_file_path, dst_file_path)
+      command = "bin/convert"
+
+      case format
+      when "lisp", "aquaskk"
+        command << " --escape=#{format}"
+      when "unannotated"
+        command << " --no-annotation"
+      end
+
+      command << " #{src_file_path} | skkdic-expr2 > #{dst_file_path}"
+
+      sh command
+    end
+
+    def concat(src_file_paths, dst_file_path)
+      sh "skkdic-expr2 #{src_file_paths.join(" + ")} > #{dst_file_path}"
+    end
+  end
+end
