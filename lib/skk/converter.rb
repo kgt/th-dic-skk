@@ -1,4 +1,4 @@
-require "skk/entry"
+require_relative "entry"
 
 module SKK
   class Converter
