@@ -61,9 +61,11 @@ end
 task :default => "convert:all"
 
 namespace :convert do
+  desc "Convert dictionaries"
   task :all => FORMATS.collect {|format| "convert:#{format}" }
 
   FORMATS.each do |format|
+    desc "Convert dictionaries for #{format}"
     task format => [concated_path(format), *dst_files(format)]
   end
 end
