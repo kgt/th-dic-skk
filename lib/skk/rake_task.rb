@@ -60,7 +60,7 @@ module SKK
     def src_file_names
       [
         "thdic-#{version}-1-作品名.txt",
-        "thdic-#{version}-2-キャラクター.txt",
+        "thdic-#{version}-2-キャラクター名.txt",
         "thdic-#{version}-3-曲名.txt",
         "thdic-#{version}-4-用語.txt",
         "thdic-#{version}-5-スペルカード.txt"
