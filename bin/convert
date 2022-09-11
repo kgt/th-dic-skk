@@ -19,7 +19,7 @@ end
 
 parser.parse!(ARGV)
 
-converter = SKK::Converter.new(options)
+converter = SKK::Converter.new(**options)
 file      = ARGV[0] ? File.open(ARGV[0], "rb:UTF-8") : $stdin
 
 print converter.convert(file)
