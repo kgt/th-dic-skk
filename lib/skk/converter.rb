@@ -13,7 +13,12 @@ module SKK
       result = ""
 
       dictionary.each_line do |line|
-        entry = Entry.new(line.chomp)
+        line = line.chomp
+
+        next if line.empty?
+        next if line.start_with?("#")
+
+        entry = Entry.new(line)
 
         next unless entry.valid?
 
