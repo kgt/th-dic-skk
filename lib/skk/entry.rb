@@ -44,6 +44,7 @@ module SKK
 
     def skk_entries
       fixed_entry = ichidan_verb? ? entry[0..-2] : entry
+      fixed_entry = replace_invalid_entry_chars(entry)
 
       case
       when verb?
@@ -53,6 +54,10 @@ module SKK
       else
         [fixed_entry]
       end
+    end
+
+    def replace_invalid_entry_chars(entry)
+      entry.gsub("ゔ", "う゛")
     end
 
     def skk_okuri_alphabet(kana)
