@@ -1,5 +1,6 @@
 ;; okuri-ari entries.
 ;; okuri-nasi entries.
+60ねんぶりにむらさきにかおるはな /六十年ぶりに紫に香る花;作品名〉紫香花収録の小説（著者：ZUN）/
 あまのじゃく /アマノジャク;作品名〉東方Project第14.3弾（2014年5月11日 例大祭11）/
 いざなぎぶっしつ /伊弉諾物質　～ Neo-traditionalism of Japan.;作品名〉ZUN's Music Collection vol.7（2012年8月11日 C82）/伊弉諾物質;作品名〉ZUN's Music Collection vol.7（2012年8月11日 C82）/
 いばらかせん /茨歌仙;作品名〉連載漫画（原作：ZUN，漫画：あずまあや）/
@@ -128,14 +129,13 @@
 ゆめじくう /夢時空;作品名〉東方Project第3弾（1997年12月29日 C53）/
 ゆめたがえかがくせいき /夢違科学世紀　～ Changeability of Strange Dream;作品名〉ZUN's Music Collection vol.3（2004年12月30日 C67）/夢違科学世紀;作品名〉ZUN's Music Collection vol.3（2004年12月30日 C67）/
 ようがくだんのれきし /幺樂団の歴史１　～ Akyu's Untouched Score vol.1;作品名〉Akyu's Untouched Score vol.1（2006年5月21日 例大祭1）/幺樂団の歴史２　～ Akyu's Untouched Score vol.2;作品名〉Akyu's Untouched Score vol.2（2006年12月30日 C71）/幺樂団の歴史３　～ Akyu's Untouched Score vol.3;作品名〉Akyu's Untouched Score vol.3（2006年12月30日 C71）/幺樂団の歴史４　～ Akyu's Untouched Score vol.4;作品名〉Akyu's Untouched Score vol.4（2007年12月30日 C73）/幺樂団の歴史５　～ Akyu's Untouched Score vol.5;作品名〉Akyu's Untouched Score vol.5（2007年12月30日 C73）/幺樂団の歴史１;作品名〉Akyu's Untouched Score vol.1（2006年5月21日 例大祭1）/幺樂団の歴史２;作品名〉Akyu's Untouched Score vol.2（2006年12月30日 C71）/幺樂団の歴史３;作品名〉Akyu's Untouched Score vol.3（2006年12月30日 C71）/幺樂団の歴史４;作品名〉Akyu's Untouched Score vol.4（2007年12月30日 C73）/幺樂団の歴史５;作品名〉Akyu's Untouched Score vol.5（2007年12月30日 C73）/幺樂団の歴史;作品名〉Akyu's Untouched Score/
-ようがくだんのれきし１ /幺樂団の歴史１　～ Akyu's Untouched Score vol.1;作品名〉Akyu's Untouched Score vol.1（2006年5月21日 例大祭1）/幺樂団の歴史１;作品名〉Akyu's Untouched Score vol.1（2006年5月21日 例大祭1）/
-ようがくだんのれきし２ /幺樂団の歴史２　～ Akyu's Untouched Score vol.2;作品名〉Akyu's Untouched Score vol.2（2006年12月30日 C71）/幺樂団の歴史２;作品名〉Akyu's Untouched Score vol.2（2006年12月30日 C71）/
-ようがくだんのれきし３ /幺樂団の歴史３　～ Akyu's Untouched Score vol.3;作品名〉Akyu's Untouched Score vol.3（2006年12月30日 C71）/幺樂団の歴史３;作品名〉Akyu's Untouched Score vol.3（2006年12月30日 C71）/
-ようがくだんのれきし４ /幺樂団の歴史４　～ Akyu's Untouched Score vol.4;作品名〉Akyu's Untouched Score vol.4（2007年12月30日 C73）/幺樂団の歴史４;作品名〉Akyu's Untouched Score vol.4（2007年12月30日 C73）/
-ようがくだんのれきし５ /幺樂団の歴史５　～ Akyu's Untouched Score vol.5;作品名〉Akyu's Untouched Score vol.5（2007年12月30日 C73）/幺樂団の歴史５;作品名〉Akyu's Untouched Score vol.5（2007年12月30日 C73）/
+ようがくだんのれきし1 /幺樂団の歴史１　～ Akyu's Untouched Score vol.1;作品名〉Akyu's Untouched Score vol.1（2006年5月21日 例大祭1）/幺樂団の歴史１;作品名〉Akyu's Untouched Score vol.1（2006年5月21日 例大祭1）/
+ようがくだんのれきし2 /幺樂団の歴史２　～ Akyu's Untouched Score vol.2;作品名〉Akyu's Untouched Score vol.2（2006年12月30日 C71）/幺樂団の歴史２;作品名〉Akyu's Untouched Score vol.2（2006年12月30日 C71）/
+ようがくだんのれきし3 /幺樂団の歴史３　～ Akyu's Untouched Score vol.3;作品名〉Akyu's Untouched Score vol.3（2006年12月30日 C71）/幺樂団の歴史３;作品名〉Akyu's Untouched Score vol.3（2006年12月30日 C71）/
+ようがくだんのれきし4 /幺樂団の歴史４　～ Akyu's Untouched Score vol.4;作品名〉Akyu's Untouched Score vol.4（2007年12月30日 C73）/幺樂団の歴史４;作品名〉Akyu's Untouched Score vol.4（2007年12月30日 C73）/
+ようがくだんのれきし5 /幺樂団の歴史５　～ Akyu's Untouched Score vol.5;作品名〉Akyu's Untouched Score vol.5（2007年12月30日 C73）/幺樂団の歴史５;作品名〉Akyu's Untouched Score vol.5（2007年12月30日 C73）/
 ようせいだいせんそう /妖精大戦争　～ 東方三月精;作品名〉東方Project第12.8弾（2010年8月14日 C78）/妖精大戦争;作品名〉東方Project第12.8弾（2010年8月14日 C78）/
 ようようむ /妖々夢;作品名〉東方Project第7弾（2003年8月17日 C64）/
 れいいでん /靈異伝;作品名〉東方Project第1弾（1996年11月3日 第20回鳩山祭，1997年8月15日 C52）/
 れんだいのやこう /蓮台野夜行　～ Ghostly Field Club;作品名〉ZUN's Music Collection vol.2（2003年12月30日 C65）/蓮台野夜行;作品名〉ZUN's Music Collection vol.2（2003年12月30日 C65）/
 ろくじゅうねんぶりにむらさきにかおるはな /六十年ぶりに紫に香る花;作品名〉紫香花収録の小説（著者：ZUN）/
-６０ねんぶりにむらさきにかおるはな /六十年ぶりに紫に香る花;作品名〉紫香花収録の小説（著者：ZUN）/
