@@ -57,7 +57,15 @@ module SKK
     end
 
     def replace_invalid_entry_chars(entry)
-      entry.gsub("ゔ", "う゛")
+      entry = entry.dup
+
+      {
+        "ゔ" => "う゛"
+      }.each do |pattern, replace|
+        entry.gsub!(pattern, replace)
+      end
+
+      entry
     end
 
     def skk_okuri_alphabet(kana)
