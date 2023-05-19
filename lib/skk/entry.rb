@@ -7,7 +7,7 @@ module SKK
     end
 
     def valid?
-      !entry.match?(/[a-z]/) || !entry.match?(/[!a-z]/)
+      !entry.match?(/[ａ-ｚ]/)
     end
 
     def verb?
