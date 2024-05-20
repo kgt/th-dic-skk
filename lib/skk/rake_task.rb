@@ -1,5 +1,6 @@
 require "rake"
 require "rake/tasklib"
+require "rake/clean"
 
 module SKK
   class RakeTask < Rake::TaskLib
@@ -34,11 +35,13 @@ module SKK
       file concated_file_path => [dst_dir, *dst_file_paths] do
         concat dst_file_paths, concated_file_path
       end
+      CLOBBER << concated_file_path
 
       dst_file_paths.zip(src_file_paths).each do |dst_file_path, src_file_path|
         file dst_file_path => [dst_dir, src_file_path] do
           convert src_file_path, dst_file_path
         end
+        CLOBBER << dst_file_path
       end
     end
 
@@ -51,6 +54,7 @@ module SKK
           sh "git archive -o #{archive_file} --prefix #{package_name}/ #{version} #{concated_file_name} #{dst_file_names.join(" ")}"
         end
       end
+      CLOBBER << archive_path
     end
 
     def src_dir
